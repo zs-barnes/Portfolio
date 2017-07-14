@@ -1,0 +1,165 @@
+
+.container {
+    max-width: 1000px;
+    margin: 0px auto 0px;
+}
+
+header {
+    display: flex;
+    max-width: 100%;
+}
+
+.logo {
+    width: 50%;
+    padding: 2% 0% 0% 4%;
+}
+
+img[src="Zachary_Barnes2.jpg"]{
+    border-radius: 50%;
+}
+
+.title {
+    text-align: right;
+    font-weight: 100;
+    padding-right: 1em;
+    width: 50%;
+}
+
+h1 {
+    font: normal 56px'Open Sans', sans-serif;
+    color: #2d3c49;
+    margin: 60px 0px 0px;
+}
+
+p {
+    font: 30px 'Open Sans', sans-serif;
+    color: #2d3c49;
+    margin:0;
+}
+
+hr {
+    background-color: #7d97ad;
+    height: 3px;
+}
+
+.article {
+    max-width: 100%;
+    height: 40em;
+    margin: 20px 0px;
+    text-align: center;
+}
+
+h2 {
+    font: 250% 'Open Sans', sans-serif;
+    max-width: 100%;
+    color: #7d97ad;
+    padding: 2% 0% 0% 2%;
+    margin: 0;
+}
+
+h3 {
+    font: 150% 'Open Sans', sans-serif;
+    color: #2d3c49;
+    text-align: center;
+}
+
+#footer {
+    display: flex;
+    max-width: 100%;
+}
+
+#footer img {
+    box-shadow: 10px 10px 5px #888888;
+}
+
+.projects {
+    padding-right: 15px;
+}
+
+.about {
+    padding: 0px 15px;
+}
+
+.blog {
+    padding-left: 15px;
+}
+
+img {
+    max-width: 100%;
+    object-fit: fill;
+    vertical-align: middle;
+    height: auto;
+}
+
+@media screen and (max-width: 1037px) {
+
+    .container {
+        max-width: 700px;
+        margin: 0px auto 0px;
+    }
+
+    .logo img{
+        width: inherit;
+    }
+
+    h1 {
+        font-size: 39px;
+    }
+
+    p {
+        font-size: 25px;
+    }
+
+    .article {
+        height: inherit;
+    }
+
+    h2 {
+        font-size: 200%;
+        padding-left: inherit;
+    }
+
+}
+
+@media screen and (max-width: 720px) {
+
+    .container {
+        max-width: 600px;
+        margin: 0px auto 0px;
+    }
+
+    h1 {
+        font-size: 4.5vw;
+        margin-top: 30px;
+    }
+
+    p {
+        font-size: 3.4vw;
+    }
+
+    h2 {
+        text-align: center;
+        padding-bottom: 10px;
+    }
+
+    #footer {
+        display: inline-grid;
+        text-align: center;
+        margin: 0em 6em 0em;
+        box-sizing: border-box;
+    }
+
+    .projects {
+        padding: 0;
+    }
+
+    .about {
+        padding: 0;
+    }
+
+    .blog {
+        padding: 0;
+    }
+
+}
+
