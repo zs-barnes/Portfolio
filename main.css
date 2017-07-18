@@ -14,7 +14,7 @@ header {
     padding: 2% 0% 0% 4%;
 }
 
-img[src="Zachary_Barnes2.jpg"]{
+img[src='img/Zachary_Barnes2.jpg']{
     border-radius: 50%;
 }
 
@@ -26,13 +26,13 @@ img[src="Zachary_Barnes2.jpg"]{
 }
 
 h1 {
-    font: normal 56px'Open Sans', sans-serif;
+    font: normal 56px "Open Sans", sans-serif;
     color: #2d3c49;
     margin: 60px 0px 0px;
 }
 
 p {
-    font: 30px 'Open Sans', sans-serif;
+    font: 30px "Open Sans", sans-serif;
     color: #2d3c49;
     margin:0;
 }
@@ -50,7 +50,7 @@ hr {
 }
 
 h2 {
-    font: 250% 'Open Sans', sans-serif;
+    font: 250% "Open Sans", sans-serif;
     max-width: 100%;
     color: #7d97ad;
     padding: 2% 0% 0% 2%;
@@ -58,7 +58,7 @@ h2 {
 }
 
 h3 {
-    font: 150% 'Open Sans', sans-serif;
+    font: 150% "Open Sans", sans-serif;
     color: #2d3c49;
     text-align: center;
 }
@@ -161,5 +161,12 @@ img {
         padding: 0;
     }
 
+}
+
+@media screen and (max-width: 400px){
+
+    .container {
+        margin: 0px;
+    }
 }
 
